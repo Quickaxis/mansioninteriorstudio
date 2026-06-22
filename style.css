@@ -2966,6 +2966,41 @@ img {
   }
 }
 
+/* ====================================================
+   Portfolio Project Cards - Mobile Responsiveness
+   ==================================================== */
+@media (max-width: 768px) {
+  .project-tags,
+  .portfolio-tags,
+  .case-study-tags,
+  .project-space-tags {
+    display: none !important;
+  }
+
+  .project-intro-card,
+  .project-card,
+  .case-study-card {
+    padding: 24px 18px !important;
+  }
+
+  .project-intro-card h3,
+  .project-card h3,
+  .case-study-card h3 {
+    font-size: clamp(32px, 8.5vw, 42px) !important;
+    line-height: 1.02 !important;
+    margin-bottom: 18px !important;
+  }
+
+  .project-intro-card p,
+  .project-card p,
+  .case-study-card p {
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+
 
 
 
