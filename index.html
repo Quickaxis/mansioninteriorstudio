@@ -29,6 +29,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#gallery">Gallery</a></li>
           <li><a href="#process">Process</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -345,6 +346,59 @@
     </div>
   </div>
 
+  <!-- New Gallery Section -->
+  <section class="gallery section-padding" id="gallery">
+    <div class="container">
+      <div class="services-header reveal-up">
+        <div>
+          <span class="editorial-mark">OUR WORK</span>
+          <h2 class="services-heading">Project Gallery</h2>
+          <p style="color: var(--muted-text); margin-top: 10px;">A glimpse of our construction, planning, interior, and project execution work across Upper Assam.</p>
+        </div>
+      </div>
+
+      <div class="gallery-grid reveal-up delay-100">
+        <!-- Item 1 (Featured) -->
+        <div class="gallery-item gallery-item-featured">
+          <div class="gallery-item-placeholder"><span class="plus-symbol">+</span></div>
+          <img src="phtoos/work1.jpg" alt="Featured Gallery Project" class="gallery-image" onload="this.classList.add('loaded')" onerror="this.style.opacity=0">
+          <div class="gallery-overlay"></div>
+        </div>
+        <!-- Item 2 -->
+        <div class="gallery-item">
+          <div class="gallery-item-placeholder"><span class="plus-symbol">+</span></div>
+          <img src="phtoos/work2.jpg" alt="Gallery Project 2" class="gallery-image" onload="this.classList.add('loaded')" onerror="this.style.opacity=0">
+          <div class="gallery-overlay"></div>
+        </div>
+        <!-- Item 3 -->
+        <div class="gallery-item">
+          <div class="gallery-item-placeholder"><span class="plus-symbol">+</span></div>
+          <img src="phtoos/work3.jpg" alt="Gallery Project 3" class="gallery-image" onload="this.classList.add('loaded')" onerror="this.style.opacity=0">
+          <div class="gallery-overlay"></div>
+        </div>
+        <!-- Item 4 -->
+        <div class="gallery-item">
+          <div class="gallery-item-placeholder"><span class="plus-symbol">+</span></div>
+          <img src="phtoos/work4.jpg" alt="Gallery Project 4" class="gallery-image" onload="this.classList.add('loaded')" onerror="this.style.opacity=0">
+          <div class="gallery-overlay"></div>
+        </div>
+        <!-- Item 5 -->
+        <div class="gallery-item">
+          <div class="gallery-item-placeholder"><span class="plus-symbol">+</span></div>
+          <img src="phtoos/work5.jpg" alt="Gallery Project 5" class="gallery-image" onload="this.classList.add('loaded')" onerror="this.style.opacity=0">
+          <div class="gallery-overlay"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="container">
+    <div class="divider-line">
+      <span class="plus-symbol">+</span>
+    </div>
+  </div>
+
   <!-- 6. Specialty / Why Choose Us -->
   <section class="specialty-section section-padding">
     <div class="container specialty">
@@ -633,6 +687,14 @@
       <div class="lightbox-caption" id="lightboxCaption"></div>
     </div>
     <button class="lightbox-nav next" id="lightboxNext" aria-label="Next Photo">&#10217;</button>
+  </div>
+
+  <!-- Gallery Lightbox Modal -->
+  <div id="galleryLightbox" class="gallery-lightbox" aria-hidden="true" role="dialog">
+    <button class="gallery-lightbox-close" id="galleryLightboxClose" aria-label="Close Gallery">&times;</button>
+    <div class="gallery-lightbox-content">
+      <img id="galleryLightboxImg" class="gallery-lightbox-img" src="" alt="Project Gallery View">
+    </div>
   </div>
 
   <!-- Script Logic -->

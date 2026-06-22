@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // 3. Scroll Reveal Animation (Intersection Observer)
-  const fadeElements = document.querySelectorAll('.fade-up');
+  const fadeElements = document.querySelectorAll('.fade-up, .reveal-up');
   
   const revealOnScroll = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
@@ -396,6 +396,49 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // 7. Gallery System & Lightbox Modal
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  const galleryLightbox = document.getElementById('galleryLightbox');
+  const galleryLightboxImg = document.getElementById('galleryLightboxImg');
+  const galleryLightboxClose = document.getElementById('galleryLightboxClose');
 
+  if (galleryItems.length > 0 && galleryLightbox && galleryLightboxImg) {
+    galleryItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const img = item.querySelector('.gallery-image');
+        if (img) {
+          galleryLightboxImg.src = img.src;
+          galleryLightboxImg.alt = img.alt;
+          galleryLightbox.classList.add('active');
+          galleryLightbox.setAttribute('aria-hidden', 'false');
+          document.body.style.overflow = 'hidden'; // prevent page scrolling
+        }
+      });
+    });
+
+    const closeGalleryLightbox = () => {
+      galleryLightbox.classList.remove('active');
+      galleryLightbox.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = ''; // restore scrolling
+    };
+
+    if (galleryLightboxClose) {
+      galleryLightboxClose.addEventListener('click', closeGalleryLightbox);
+    }
+
+    // Close on background click
+    galleryLightbox.addEventListener('click', (e) => {
+      if (e.target === galleryLightbox) {
+        closeGalleryLightbox();
+      }
+    });
+
+    // Close on escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && galleryLightbox.classList.contains('active')) {
+        closeGalleryLightbox();
+      }
+    });
+  }
 
 });

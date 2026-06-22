@@ -3000,6 +3000,218 @@ img {
   }
 }
 
+/* ----------------------------------------------------
+   Our Work Gallery & Support for reveal-up Animations
+   ---------------------------------------------------- */
+.reveal-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Gallery Section Layout */
+#gallery {
+  scroll-margin-top: 110px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 240px;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  background: linear-gradient(135deg, var(--bg-beige) 0%, var(--bg-sand) 100%);
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.gallery-item-featured {
+  grid-column: span 2;
+  grid-row: span 2;
+  height: 100%;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0; /* hidden by default, shown when loaded */
+  transition: opacity 0.3s ease, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gallery-image.loaded {
+  opacity: 1;
+}
+
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.4);
+  opacity: 0;
+  transition: var(--transition-fast);
+  z-index: 1;
+}
+
+.gallery-item-placeholder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--muted-text);
+  font-family: var(--font-headings);
+  font-size: 24px;
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Gallery Hover Animations */
+.gallery-item:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-gold);
+  box-shadow: 0 12px 30px rgba(184, 156, 115, 0.15);
+}
+
+.gallery-item:hover .gallery-image.loaded {
+  transform: scale(1.06);
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+}
+
+/* Gallery Lightbox */
+.gallery-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 3000;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-lightbox.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.gallery-lightbox-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 48px;
+  cursor: pointer;
+  line-height: 1;
+  transition: var(--transition-fast);
+  z-index: 3100;
+  padding: 10px;
+}
+
+.gallery-lightbox-close:hover {
+  color: var(--accent-gold);
+  transform: scale(1.1);
+}
+
+.gallery-lightbox-content {
+  max-width: 85%;
+  max-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-lightbox-img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: galleryLightboxFadeIn 0.3s ease forwards;
+}
+
+@keyframes galleryLightboxFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive styles for Gallery */
+@media (max-width: 1024px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px;
+    gap: 20px;
+  }
+  
+  .gallery-item-featured {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 16px;
+  }
+
+  .gallery-item {
+    aspect-ratio: 4 / 3;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .gallery-item-featured {
+    grid-column: span 1;
+    grid-row: span 1;
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+  
+  .gallery-lightbox-close {
+    top: 20px;
+    right: 20px;
+    font-size: 38px;
+  }
+  
+  .gallery-lightbox-content {
+    max-width: 95%;
+  }
+}
+
 
 
 
