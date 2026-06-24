@@ -9,7 +9,7 @@ We have completely overhauled the portfolio section of the website to transition
 ### A. Dynamic Project Swapping Tabs
 - Replaced the old static grid with two premium, pill-shaped high-contrast filter tabs at the top of the Portfolio section:
   - **The Castleton Mansion** (Active by default)
-  - **Castleton Apartments**
+  - **The Castleton Apartments**
 - Swapping the tabs dynamically updates the case study intro card, primary featured cover image, and the layout gallery grids via JavaScript.
 
 ### B. Clean Asymmetric Case Study Layout

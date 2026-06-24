@@ -1,11 +1,11 @@
 # Portfolio Redesign & Lightbox Integration
 
-The current portfolio section has overlapping images, broken cropping, room categories mixed up as separate projects, and is difficult to browse. This plan details the redesign to transform it into a premium, tabbed case study gallery for the two primary projects: *The Castleton Mansion* and *Castleton Apartments*. It also introduces a dynamic lightbox modal for viewing high-quality interior images.
+The current portfolio section has overlapping images, broken cropping, room categories mixed up as separate projects, and is difficult to browse. This plan details the redesign to transform it into a premium, tabbed case study gallery for the two primary projects: *The Castleton Mansion* and *The Castleton Apartments*. It also introduces a dynamic lightbox modal for viewing high-quality interior images.
 
 ## User Review Required
 
 > [!IMPORTANT]
-> The portfolio page will now load *The Castleton Mansion* by default. Users will be able to switch to *Castleton Apartments* using the new high-contrast filter tabs at the top.
+> The portfolio page will now load *The Castleton Mansion* by default. Users will be able to switch to *The Castleton Apartments* using the new high-contrast filter tabs at the top.
 > 
 > All images will be loaded dynamically from JavaScript array stores to make it extremely easy to add or replace images in the future without writing HTML boilerplate.
 
@@ -19,7 +19,7 @@ The current portfolio section has overlapping images, broken cropping, room cate
   ```html
   <div class="project-tabs">
     <button class="project-tab active" data-project="mansion">The Castleton Mansion</button>
-    <button class="project-tab" data-project="apartments">Castleton Apartments</button>
+    <button class="project-tab" data-project="apartments">The Castleton Apartments</button>
   </div>
   ```
 - Add the project panel target container:

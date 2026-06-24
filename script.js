@@ -100,47 +100,47 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       src: "photos apartment/apartment1.jpg",
       label: "Living Area",
-      alt: "Castleton Apartments interior design photo 1"
+      alt: "The Castleton Apartments interior design photo 1"
     },
     {
       src: "photos apartment/apartment2.jpg",
       label: "Kitchen",
-      alt: "Castleton Apartments interior design photo 2"
+      alt: "The Castleton Apartments interior design photo 2"
     },
     {
       src: "photos apartment/apartment3.jpg",
       label: "Bedroom",
-      alt: "Castleton Apartments interior design photo 3"
+      alt: "The Castleton Apartments interior design photo 3"
     },
     {
       src: "photos apartment/apartment4.jpg",
       label: "Dining Area",
-      alt: "Castleton Apartments interior design photo 4"
+      alt: "The Castleton Apartments interior design photo 4"
     },
     {
       src: "photos apartment/apartment5.jpg",
       label: "Wardrobe / Storage",
-      alt: "Castleton Apartments interior design photo 5"
+      alt: "The Castleton Apartments interior design photo 5"
     },
     {
       src: "photos apartment/apartment6.jpg",
       label: "Bathroom",
-      alt: "Castleton Apartments interior design photo 6"
+      alt: "The Castleton Apartments interior design photo 6"
     },
     {
       src: "photos apartment/apartment7.jpg",
       label: "Ceiling / Lighting",
-      alt: "Castleton Apartments interior design photo 7"
+      alt: "The Castleton Apartments interior design photo 7"
     },
     {
       src: "photos apartment/apartment8.jpg",
       label: "Furniture Detail",
-      alt: "Castleton Apartments interior design photo 8"
+      alt: "The Castleton Apartments interior design photo 8"
     },
     {
       src: "photos apartment/apartment9.jpg",
       label: "Passage / Entrance",
-      alt: "Castleton Apartments interior design photo 9"
+      alt: "The Castleton Apartments interior design photo 9"
     }
   ];
 
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gallery: mansionGallery
     },
     apartments: {
-      title: "Castleton Apartments",
+      title: "The Castleton Apartments",
       category: "Apartment Interior Design",
       description: "Modern apartment interiors planned with comfort, function, storage, and premium finishing.",
       tags: ["Living Area", "Kitchen", "Bedroom", "Dining Area", "Wardrobe / Storage", "Bathroom", "Lighting Details", "Detail Shots"],

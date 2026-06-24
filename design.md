@@ -94,7 +94,7 @@ A hybrid visual style fusing a **premium interior design portfolio** with **edit
 
 ## 11. Portfolio Styling Rules
 - Strict **Project-Based Case Studies / Galleries** instead of selling items or rooms as separate projects.
-- Display only 2 completed projects: The Castleton Mansion and Castleton Apartments.
+- Display only 2 completed projects: The Castleton Mansion and The Castleton Apartments.
 - Render layout dynamically via tab options at the top of the portfolio section.
 - Each project page contains:
   - **Project Intro Card**: Title, Category, Description, and clean Space Tag Pills.
