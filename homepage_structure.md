@@ -47,12 +47,12 @@
 ## 5. Featured Portfolio (Interior Projects & Spaces)
 - **Label**: SELECTED WORK
 - **Heading**: Interior Projects & Spaces
-- **Description**: Explore completed interior spaces from Castleton Mansion and Castleton Apartments, including lounge, living, kitchen, bedroom, dining, bathroom, balcony, and detail shots.
+- **Description**: Explore completed interior spaces from The Castleton Mansion and Castleton Apartments, including lounge, living, kitchen, bedroom, dining, bathroom, balcony, and detail shots.
 - **Tabs**: Tab switcher at the top to toggle between the projects:
-  - Castleton Mansion
+  - The Castleton Mansion
   - Castleton Apartments
 
-### Project 1: Castleton Mansion
+### Project 1: The Castleton Mansion
 - **Category**: Premium Hospitality Interior
 - **Description**: A complete interior styling and space planning project designed for a premium mansion stay experience.
 - **Tags**: Lounge Area, Living Room, Bedroom, Kitchen, Dining Space, Balcony / Veranda, Bathroom, Detail Shots

@@ -52,47 +52,47 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       src: "photos/castletonmansion7.jpg",
       label: "Lounge Area",
-      alt: "Castleton Mansion premium lounge interior styling"
+      alt: "The Castleton Mansion premium lounge interior styling"
     },
     {
       src: "photos/castletonmansion8.jpg",
       label: "Living Room",
-      alt: "Castleton Mansion luxury living room space planning"
+      alt: "The Castleton Mansion luxury living room space planning"
     },
     {
       src: "photos/castletonmansion9.jpg",
       label: "Bedroom",
-      alt: "Castleton Mansion master bedroom with warm lighting"
+      alt: "The Castleton Mansion master bedroom with warm lighting"
     },
     {
       src: "photos/castletonmansionlounge.jpg",
       label: "Kitchen",
-      alt: "Castleton Mansion bespoke culinary kitchen design"
+      alt: "The Castleton Mansion bespoke culinary kitchen design"
     },
     {
       src: "photos/castletonmansionlivingroom.jpg",
       label: "Dining Space",
-      alt: "Castleton Mansion grand dining area setup"
+      alt: "The Castleton Mansion grand dining area setup"
     },
     {
       src: "photos/castletonmansionphoto4.jpg",
       label: "Balcony / Veranda",
-      alt: "Castleton Mansion veranda sitting layout"
+      alt: "The Castleton Mansion veranda sitting layout"
     },
     {
       src: "photos/casttleonmansion6.jpg",
       label: "Bathroom",
-      alt: "Castleton Mansion high-end marble bathroom"
+      alt: "The Castleton Mansion high-end marble bathroom"
     },
     {
       src: "photos/casttletonmansion10.jpg",
       label: "Lighting Detail",
-      alt: "Castleton Mansion custom ceiling light fixture details"
+      alt: "The Castleton Mansion custom ceiling light fixture details"
     },
     {
       src: "photos/castleonmansionchair.jpg",
       label: "Furniture Detail",
-      alt: "Castleton Mansion minimalist bespoke chair and side table detail"
+      alt: "The Castleton Mansion minimalist bespoke chair and side table detail"
     }
   ];
 
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const projectData = {
     mansion: {
-      title: "Castleton Mansion",
+      title: "The Castleton Mansion",
       category: "Premium Hospitality Interior",
       description: "A complete interior styling and space planning project designed for a premium mansion stay experience.",
       tags: ["Lounge Area", "Living Room", "Bedroom", "Kitchen", "Dining Space", "Balcony / Veranda", "Bathroom", "Detail Shots"],
