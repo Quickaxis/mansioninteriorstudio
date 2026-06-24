@@ -5,7 +5,7 @@
 - [x] Create `design.md` specification file in the root directory
 - [x] Create `homepage_structure.md` specification file in the root directory
 - [x] Adjust Services section to show 7 distinct service execution cards
-- [x] Rebuild Portfolio section to show only 2 project-based case studies (Castle On Mansion, Castle On Apartments)
+- [x] Rebuild Portfolio section to show only 2 project-based case studies (Castleton Mansion, Castleton Apartments)
 - [x] Remove all ecommerce elements, catalog cards, shopping icons, and arrows
 - [x] Restructure case study cards in CSS (1 large main image + 3 supporting side images + planned space tags list)
 - [x] Update responsive layout rules in `style.css` for tablet and mobile scales

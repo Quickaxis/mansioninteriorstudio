@@ -47,12 +47,12 @@
 ## 5. Featured Portfolio (Interior Projects & Spaces)
 - **Label**: SELECTED WORK
 - **Heading**: Interior Projects & Spaces
-- **Description**: Explore completed interior spaces from Castle On Mansion and Castle On Apartments, including lounge, living, kitchen, bedroom, dining, bathroom, balcony, and detail shots.
+- **Description**: Explore completed interior spaces from Castleton Mansion and Castleton Apartments, including lounge, living, kitchen, bedroom, dining, bathroom, balcony, and detail shots.
 - **Tabs**: Tab switcher at the top to toggle between the projects:
-  - Castle On Mansion
-  - Castle On Apartments
+  - Castleton Mansion
+  - Castleton Apartments
 
-### Project 1: Castle On Mansion
+### Project 1: Castleton Mansion
 - **Category**: Premium Hospitality Interior
 - **Description**: A complete interior styling and space planning project designed for a premium mansion stay experience.
 - **Tags**: Lounge Area, Living Room, Bedroom, Kitchen, Dining Space, Balcony / Veranda, Bathroom, Detail Shots
@@ -61,7 +61,7 @@
   - **Gallery Grid**: 3 columns (desktop) with 9 other detailed category shots (Living Room, Bedroom, Kitchen, Dining Space, etc.).
 - **CTA**: "View Full Gallery" button opening the interactive lightbox modal.
 
-### Project 2: Castle On Apartments
+### Project 2: Castleton Apartments
 - **Category**: Apartment Interior Design
 - **Description**: Modern apartment interiors planned with comfort, function, storage, and premium finishing.
 - **Tags**: Living Area, Kitchen, Bedroom, Dining Area, Wardrobe / Storage, Bathroom, Lighting Details, Detail Shots

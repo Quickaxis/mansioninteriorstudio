@@ -52,47 +52,47 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       src: "photos/castletonmansion7.jpg",
       label: "Lounge Area",
-      alt: "Castle On Mansion premium lounge interior styling"
+      alt: "Castleton Mansion premium lounge interior styling"
     },
     {
       src: "photos/castletonmansion8.jpg",
       label: "Living Room",
-      alt: "Castle On Mansion luxury living room space planning"
+      alt: "Castleton Mansion luxury living room space planning"
     },
     {
       src: "photos/castletonmansion9.jpg",
       label: "Bedroom",
-      alt: "Castle On Mansion master bedroom with warm lighting"
+      alt: "Castleton Mansion master bedroom with warm lighting"
     },
     {
       src: "photos/castletonmansionlounge.jpg",
       label: "Kitchen",
-      alt: "Castle On Mansion bespoke culinary kitchen design"
+      alt: "Castleton Mansion bespoke culinary kitchen design"
     },
     {
       src: "photos/castletonmansionlivingroom.jpg",
       label: "Dining Space",
-      alt: "Castle On Mansion grand dining area setup"
+      alt: "Castleton Mansion grand dining area setup"
     },
     {
       src: "photos/castletonmansionphoto4.jpg",
       label: "Balcony / Veranda",
-      alt: "Castle On Mansion veranda sitting layout"
+      alt: "Castleton Mansion veranda sitting layout"
     },
     {
       src: "photos/casttleonmansion6.jpg",
       label: "Bathroom",
-      alt: "Castle On Mansion high-end marble bathroom"
+      alt: "Castleton Mansion high-end marble bathroom"
     },
     {
       src: "photos/casttletonmansion10.jpg",
       label: "Lighting Detail",
-      alt: "Castle On Mansion custom ceiling light fixture details"
+      alt: "Castleton Mansion custom ceiling light fixture details"
     },
     {
       src: "photos/castleonmansionchair.jpg",
       label: "Furniture Detail",
-      alt: "Castle On Mansion minimalist bespoke chair and side table detail"
+      alt: "Castleton Mansion minimalist bespoke chair and side table detail"
     }
   ];
 
@@ -100,60 +100,60 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       src: "photos apartment/apartment1.jpg",
       label: "Living Area",
-      alt: "Castle On Apartments interior design photo 1"
+      alt: "Castleton Apartments interior design photo 1"
     },
     {
       src: "photos apartment/apartment2.jpg",
       label: "Kitchen",
-      alt: "Castle On Apartments interior design photo 2"
+      alt: "Castleton Apartments interior design photo 2"
     },
     {
       src: "photos apartment/apartment3.jpg",
       label: "Bedroom",
-      alt: "Castle On Apartments interior design photo 3"
+      alt: "Castleton Apartments interior design photo 3"
     },
     {
       src: "photos apartment/apartment4.jpg",
       label: "Dining Area",
-      alt: "Castle On Apartments interior design photo 4"
+      alt: "Castleton Apartments interior design photo 4"
     },
     {
       src: "photos apartment/apartment5.jpg",
       label: "Wardrobe / Storage",
-      alt: "Castle On Apartments interior design photo 5"
+      alt: "Castleton Apartments interior design photo 5"
     },
     {
       src: "photos apartment/apartment6.jpg",
       label: "Bathroom",
-      alt: "Castle On Apartments interior design photo 6"
+      alt: "Castleton Apartments interior design photo 6"
     },
     {
       src: "photos apartment/apartment7.jpg",
       label: "Ceiling / Lighting",
-      alt: "Castle On Apartments interior design photo 7"
+      alt: "Castleton Apartments interior design photo 7"
     },
     {
       src: "photos apartment/apartment8.jpg",
       label: "Furniture Detail",
-      alt: "Castle On Apartments interior design photo 8"
+      alt: "Castleton Apartments interior design photo 8"
     },
     {
       src: "photos apartment/apartment9.jpg",
       label: "Passage / Entrance",
-      alt: "Castle On Apartments interior design photo 9"
+      alt: "Castleton Apartments interior design photo 9"
     }
   ];
 
   const projectData = {
     mansion: {
-      title: "Castle On Mansion",
+      title: "Castleton Mansion",
       category: "Premium Hospitality Interior",
       description: "A complete interior styling and space planning project designed for a premium mansion stay experience.",
       tags: ["Lounge Area", "Living Room", "Bedroom", "Kitchen", "Dining Space", "Balcony / Veranda", "Bathroom", "Detail Shots"],
       gallery: mansionGallery
     },
     apartments: {
-      title: "Castle On Apartments",
+      title: "Castleton Apartments",
       category: "Apartment Interior Design",
       description: "Modern apartment interiors planned with comfort, function, storage, and premium finishing.",
       tags: ["Living Area", "Kitchen", "Bedroom", "Dining Area", "Wardrobe / Storage", "Bathroom", "Lighting Details", "Detail Shots"],
